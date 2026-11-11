@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abyssal Blade - Dark Fantasy Metroidvania</title>
+    <meta name="description" content="An atmospheric dark fantasy action adventure platformer with sword combos, spell casting, dodge rolling, and epic boss fights." />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="game-wrapper">
+      <header id="game-header">
+        <div class="brand">
+          <span class="crest-icon">⚔️</span>
+          <h1>ABYSSAL BLADE</h1>
+          <span class="tag">METROIDVANIA</span>
+        </div>
+        <div class="header-actions">
+          <div class="control-pill"><kbd>M</kbd> Mute Audio</div>
+          <div class="control-pill"><kbd>F</kbd> Fullscreen</div>
+        </div>
+      </header>
+
+      <main id="app-container">
+        <div id="app"></div>
+      </main>
+
+      <footer id="game-footer">
+        <div class="footer-tip">
+          <span class="tip-badge">TIP</span>
+          Strike enemies with your sword to siphon Soul Mana for powerful Void spells. Rest at the Bonfire to restore health and set your checkpoint.
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
